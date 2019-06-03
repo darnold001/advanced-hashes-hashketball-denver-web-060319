@@ -108,3 +108,11 @@ def most_points_scored
     end
   end
 end
+
+def winning_team
+  points_a = 0
+  points_b = 0
+  game_hash.each do |location, team_data|
+binding.pry
+  end
+end
